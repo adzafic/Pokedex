@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pokedex.View.DetailsPage"
+             xmlns:viewModel="clr-namespace:Pokedex.ViewModel"
+             x:DataType="viewModel:PokemonDetailsViewModel"
+             Title="{Binding Pokemon.Name}">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid ColumnDefinitions="*,Auto,*"
+                  RowDefinitions="160,Auto">
+                <BoxView Grid.ColumnSpan="3"
+                         HeightRequest="160"
+                         BackgroundColor="DarkSlateGrey"
+                         HorizontalOptions="FillAndExpand"/>
+                <Frame Grid.RowSpan="2"
+                       Grid.Column="1"
+                       HeightRequest="160"
+                       WidthRequest="160"
+                       CornerRadius="80"
+                       HorizontalOptions="Center"
+                       IsClippedToBounds="True"
+                       Padding="0"
+                       Margin="0,80,0,0">
+                    <Image Aspect="AspectFill"
+                           HeightRequest="160"
+                           WidthRequest="160"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           Source="{Binding Pokemon.ImageUrl}"></Image>
+                </Frame>
+            </Grid>
+            <!--<Label Text="{Binding PokemonDetails.sprites.Back_Default}"></Label>-->
+            <Grid ColumnDefinitions="*,*,*,*">
+                <Image Grid.Column="0" Aspect="Center" Source="{Binding PokemonDetails.sprites.Front_Default}"></Image>
+                <Image Grid.Column="1" Aspect="Center" Source="{Binding PokemonDetails.sprites.Back_Default}"></Image>
+                <Image Grid.Column="2" Aspect="Center" Source="{Binding PokemonDetails.sprites.Back_Shiny}"></Image>
+                <Image Grid.Column="3" Aspect="Center" Source="{Binding PokemonDetails.sprites.Front_Shiny}"></Image>
+            </Grid>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
