@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Plugin.Maui.Audio;
 using Pokedex.Service;
 using Pokedex.View;
 using Pokedex.ViewModel;
@@ -21,6 +22,7 @@ public static class MauiProgram
 #if DEBUG
         builder.Logging.AddDebug();
 #endif
+        builder.AddAudio();
         builder.Services.AddSingleton<PokemonService>();
         builder.Services.AddSingleton<PokemonViewModel>();
         builder.Services.AddTransient<PokemonDetailsViewModel>();

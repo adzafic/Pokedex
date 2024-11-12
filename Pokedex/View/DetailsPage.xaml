@@ -38,6 +38,7 @@
                 <Image Grid.Column="2" Aspect="Center" Source="{Binding PokemonDetails.sprites.Back_Shiny}"></Image>
                 <Image Grid.Column="3" Aspect="Center" Source="{Binding PokemonDetails.sprites.Front_Shiny}"></Image>
             </Grid>
+            <Button Text="Play" Command="{Binding PlaySoundCommand}"></Button>
             
         </VerticalStackLayout>
     </ScrollView>

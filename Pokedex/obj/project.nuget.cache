@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L/uvK7Jxs1E=",
+  "dgSpecHash": "aUg9VnHz3CA=",
   "success": true,
   "projectFilePath": "/Users/adnandzaficdzafic/RiderProjects/Pokedex/Pokedex/Pokedex.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,7 @@
     "/Users/adnandzaficdzafic/.nuget/packages/microsoft.maui.resizetizer/8.0.82/microsoft.maui.resizetizer.8.0.82.nupkg.sha512",
     "/Users/adnandzaficdzafic/.nuget/packages/microsoft.net.illink.tasks/8.0.10/microsoft.net.illink.tasks.8.0.10.nupkg.sha512",
     "/Users/adnandzaficdzafic/.nuget/packages/microsoft.toolkit.mvvm/7.1.2/microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",
+    "/Users/adnandzaficdzafic/.nuget/packages/plugin.maui.audio/3.0.1/plugin.maui.audio.3.0.1.nupkg.sha512",
     "/Users/adnandzaficdzafic/.nuget/packages/xamarin.android.glide/4.15.1.2/xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "/Users/adnandzaficdzafic/.nuget/packages/xamarin.android.glide.annotations/4.15.1.2/xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "/Users/adnandzaficdzafic/.nuget/packages/xamarin.android.glide.disklrucache/4.15.1.2/xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",
