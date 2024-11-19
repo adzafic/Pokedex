@@ -384,5 +384,5 @@ temp
 .packages
 
 # Ignore bin and obj folders
-./bin/*
-./obj/*
+bin/
+obj/
