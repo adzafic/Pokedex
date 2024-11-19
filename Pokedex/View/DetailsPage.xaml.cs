@@ -28,6 +28,8 @@ public partial class DetailsPage : ContentPage
     {
         base.OnAppearing();
         await _viewModel.GetPokemonAsync(_viewModel.Pokemon.Name);
+        await PokemonImage.RotateTo(360, 2000);
+        PokemonImage.Rotation = 0;
     }
     
 }

@@ -28,6 +28,7 @@
                            WidthRequest="160"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"
+                           x:Name="PokemonImage"
                            Source="{Binding Pokemon.ImageUrl}"></Image>
                 </Frame>
             </Grid>
